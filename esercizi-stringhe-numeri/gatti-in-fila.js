@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var totaleGatti= 44;
+var gattiPerFila= 6;
+var totaleFile= Math.ceil(totaleGatti / gattiPerFila);
+console.log(totaleFile);
+var gattiMancanti= (gattiPerFila * totaleFile) - totaleGatti;
+console.log(gattiMancanti);
