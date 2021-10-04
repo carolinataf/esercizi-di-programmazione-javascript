@@ -11,3 +11,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var annoCorrente= 2021;
+var annoDiNascita= 1991;
+var etaAttuale= annoCorrente - annoDiNascita
+console.log(etaAttuale)
+var calcoloAnni =  100 - etaAttuale
+console.log(calcoloAnni)
